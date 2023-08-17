@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+    <script src="./libs/noUiSlider/nouislider.min.js"></script>
+    <link rel="stylesheet" href="./libs/noUiSlider/nouislider.min.css">
+    <script src="./libs/wNumb/wNumb.min.js"></script>
+    <script src="./libs/cleaveJS/cleave.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="header-content">
+            <div class="header__block block">
+
+                <div class="header__mobile-btn">
+                    <div class="header__mobile-line"></div>
+                </div>
+    
+                <section class="header__logo">
+                    <div class="header__logo-item logo">LOGO</div>
+                </section>
+        
+                <section class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item"><a href="#" class="header__nav-link">О нас</a></li>
+                        <li class="header__nav-item"><a href="#" class="header__nav-link">Преимущества</a></li>
+                        <li class="header__nav-item"><a href="#" class="header__nav-link">Калькулятор</a></li>
+                    </ul>
+                </section>
+        
+                <section class="header__sign">
+                    <a href="#" class="header__button">
+                        <div class="header__btn btn">Личный кабинет</div>
+                        <div class="header__mobile"></div>
+                    </a>
+                </section>
+    
+            </div>
+        </div>
+
+    </header>
+
+    <main class="main">
+
+        <section class="main__banner">
+            <div class="main__banner-block block">
+
+                <div class="main__banner-left">
+                    <div class="main__banner-title">
+                        <h2 class="block-title">
+                            ПРОДВИГАЕМ ТРЕКИ ЧЕРЕЗ АВТОРСКИЕ ПЛЕЙЛИСТЫ
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="main__banner-right">
+                    <ul class="main__banner-list">
+                        <li class="main__banner-item">От 10 тысяч уникальных слушателей в неделю</li>
+                        <li class="main__banner-item">В среднем 10% слушателей  добавляют треки  к себе в аудиозаписи </li>
+                        <li class="main__banner-item">Привлечение слушателя дешевле чем через таргетинг</li>
+                        <li class="main__banner-item">Вы видите прирост слушателей и добавлений в личном кабинете в реальном времени</li>
+
+                        <div class="main__banner-button">
+                            <a href="#">
+                                <button class="main__banner-btn btn">Получить консультацю</button>
+                            </a>
+                        </div>
+                    </ul>
+                    <img src="./img/banner/banner-img.png" alt="banner-img">
+                </div>
+
+            </div>
+        </section>
+
+        <section class="main__promotion">
+            <div class="main__promotion-block block">
+
+                <div class="main__promotion-title g-m-center">
+                    <h2 class="block-title">В ЧЕМ СЕКРЕТ ЭФФЕКТИВНОСТИ ПРОДВИЖЕНИЯ ПЕСНИ?</h2>
+                </div>
+
+                <div class="main__promotion-items">
+
+                    <div class="main__promotion-item">
+                        <img src="./img/promotion/arrow-next-svgrepo-com 1.svg" alt="arrow-next-icon" class="main__promotion-icon">
+                        <div class="main__promotion-text">
+                            <p>Мы проанализировали более 500 рекламных компаний и с уверенностью можем сказать, что продвижение самого трека намного эффективнее рекламы аккаунтов в соц. сетях</p>
+                        </div>
+                    </div>
+
+                    <div class="main__promotion-item">
+                        <img src="./img/promotion/growth-svgrepo-com.svg" alt="grow-icon" class="main__promotion-icon">
+                        <div class="main__promotion-text">
+                            <p>Каждый новый слушатель, привлеченный из плейлистов, обходится дешевле, как минимум в 2 раза, чем слушатель из таргета</p>
+                        </div>
+                    </div>
+
+                    <div class="main__promotion-item">
+                        <img src="./img/promotion/chart-down-svgrepo-com.svg" alt="chart-icon" class="main__promotion-icon">
+                        <div class="main__promotion-text">
+                            <p>Мы проанализировали более 500 рекламных компаний и с уверенностью можем сказать, что продвижение самого трека намного эффективнее рекламы аккаунтов в соц. сетях</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="main__stages">
+            <div class="main__stages-block block">
+
+                <div class="main__stages-title">
+                    <h2 class="block-title">ЭТАПЫ ПРОДВИЖЕНИЯ</h2>
+                </div>
+
+                <div class="main__stages-items">
+
+                    <div class="main__stages-item">
+
+                        <div class="main__stages-num">
+                            1
+                        </div>
+
+                        <div class="main__stages-text">
+                            <p>Разместили трек в плейлистах и у него появились первые слушатели</p>
+                        </div>
+
+                    </div>
+
+                    <span class="main__stages-line">
+                        <img src="./img/stages/Arrow 1.png" alt="next-line-icon">
+                    </span>
+
+                    <div class="main__stages-item">
+
+                        <div class="main__stages-num">
+                            2
+                        </div>
+
+                        <div class="main__stages-text">
+                            <p>
+                                Слушатели добавили трек к себе
+                                </br>
+                                </br>
+                                18% от всех слушателей - были те, кто добавил трек к себе и слушал повторно
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <span class="main__stages-line">
+                        <img src="./img/stages/Arrow 1.png" alt="next-line-icon">
+                    </span>
+
+                    <div class="main__stages-item">
+
+                        <div class="main__stages-num">
+                            3
+                        </div>
+
+                        <div class="main__stages-text">
+                            <p>
+                                Подключились рекомендации 
+                                </br>
+                                </br>
+                                30% всех слушателей за месяц пришло через рекомендации плейлистов и самого трека
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="main__stages-track">
+                    <div class="main__stages-info">
+                        <div class="main__stages-img">
+                            <img src="./img/advant/m1000x1000 1.png" alt="track-img">
+                        </div>
+                        <div class="main__stages-info-block">
+                            <p class="main__stages-info-title">Любит</p>
+                            <p class="main__stages-info-date">Хип-хоп • 2022</p>
+                        </div>
+                    </div>
+                    <div class="main__stages-month">Месяц</div>
+                </div>
+
+                <div class="main__stages-chart">
+                    <canvas id="chart" width="261" height="261"></canvas>
+                    <span class="canvas-text">
+                        <p>38К</p>
+                        <p>слушателей</p>
+                    </span>
+                    <div id="do_legend"></div>
+                    <div class="main__stages-button">
+                        <a href="#" class="main__stages-link">
+                            <button class="main__stages-btn btn">Начать</button>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="main__advant">
+            <div class="main__advant-block">
+                <div class="main__advant-title block">
+                    <h2 class="block-title">ПРЕИМУЩЕСТВА ПРОДВИЖЕНИЯ ТРЕКА ЧЕРЕЗ ПЛЕЙЛИСТЫ С НАМИ</h2>
+                </div>
+                <div class="main__advant-banner">
+                    <div class="main__advant-banner-content block">
+
+                        <div class="main__advant-left">
+                            <img src="./img/advant/Group 223.png" alt="mobile-img">
+                        </div>
+
+                        <div class="main__advant-right">
+                            <div class="main__advant-items">
+    
+                                <div class="main__advant-item up">
+                                    <div class="main__advant-content">
+    
+                                        <h5 class="main__advant-item-title">VK сам продвигает вас</h5>
+    
+                                        <p class="main__advant-item-text">Рекомендации Вконтаксте подхватывают и продвигают треки, которые активно добавляют в плейлисты и слушают</p>
+    
+                                    </div>
+                                </div>
+    
+                                <div class="main__advant-item heart">
+                                    <div class="main__advant-content">
+                                        <h5 class="main__advant-item-title">Качество аудитории</h5>
+    
+                                        <p class="main__advant-item-text">Пользователи более лояльны к трекам из плейлистов, так как не думают о плейлистах как о рекламной площадке</p>
+                                    </div>
+                                </div>
+    
+                                <div class="main__advant-item money">
+                                    <div class="main__advant-content">
+    
+                                        <h5 class="main__advant-item-title">Работать с нами не дороже чем самому</h5>
+    
+                                        <p class="main__advant-item-text">Отслеживая эффективность каждого плейлиста, мы обеспечиваем гарантию, что ни один новый слушатель никогда не будет обходиться для вас дороже</p>
+    
+                                    </div>
+                                </div>
+    
+                                <div class="main__advant-item protect">
+                                    <div class="main__advant-content">
+    
+                                        <h5 class="main__advant-item-title">Безопасность</h5>
+    
+                                        <p class="main__advant-item-text">Работа с нами защитит вас от мошенников и сэкономит ваше время, бюджет, силы и энергию</p>
+    
+                                    </div>
+                                </div>
+    
+                                <div class="main__advant-item update">
+                                    <div class="main__advant-content">
+    
+                                        <h5 class="main__advant-item-title">Эффективность</h5>
+    
+                                        <p class="main__advant-item-text">Автоматическое обновление данных по всем плейлистам и формулы расчета эффективности, дают нам возможность выбирать лучшие</p>
+    
+                                    </div>
+                                </div>
+    
+                                <div class="main__advant-item list">
+                                    <div class="main__advant-content">
+    
+                                        <h5 class="main__advant-item-title">Много трафика</h5>
+    
+                                        <p class="main__advant-item-text">Мы постоянно расширяем и обновляем базу плейлистов под разные жанры</p>
+    
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main__case">
+            <div class="main__case-block block">
+
+                <div class="main__case-title">
+                    <h2 class="block-title">КЕЙСЫ</h2>
+                </div>
+
+                <div class="main__case-items">
+
+                    <div class="main__case-item">
+                        <img src="./img/case/600x600bb.png" alt="case-img" class="main__case-img">
+                        <p class="main__case-item-title">3EED - «Холодно»</p>
+                        <div class="main__case-auditions">3,5 М</div>
+                    </div>
+
+                    <div class="main__case-item">
+                        <img src="./img/case/aeead7d06cc663c0cc51d 1 (1).png" alt="case-img" class="main__case-img">
+                        <p class="main__case-item-title">Tony Tonite ft. May Wave$ «Люблю»</p>
+                        <div class="main__case-auditions">2 М</div>
+                    </div>
+
+                    <div class="main__case-item">
+                        <img src="./img/case/600x600bb.png" alt="case-img" class="main__case-img">
+                        <p class="main__case-item-title">3EED - «Холодно»</p>
+                        <div class="main__case-auditions">3,5 М</div>
+                    </div>
+
+                </div>
+
+                <p class="main__case-text">
+                    Мы продвигали треки: Tony Tonite, Иван Дорн, May Wave$, blago white JABO, SAGATH и многих других
+                </p>
+
+            </div>
+        </section>
+
+        <section class="main__calculator">
+            <div class="main__calculator-block">
+
+                <div class="main__calculator-title block">
+                    <h2 class="block-title">КАЛЬКУЛЯТОР</h2>
+                </div>
+
+                <div class="main__calculator-content">
+
+                    <div class="main__calculator-left">
+
+                        <h5 class="main__calculator-left-title">ЦЕНА</h5>
+
+                        <div class="main__calculator-slider">
+                            <div class="main__calculator-range" id="param-cost"></div>
+                        </div>
+
+                        <p class="main__calculator-text">Выставленная стоимость напрямую влияет на результат вашего продвижения</p>
+
+                        <div class="main__calculator-left-title">Прогноз</div>
+                    
+                        <div class="main__calculator-left-items">
+
+                            <div class="main__calculator-item">
+                                <p>Слушателей</p>
+                                <p>Время работы</p>
+                            </div>
+
+                            <div class="main__calculator-item">
+                                <span class="main__calculator-value">22 500 - 30 000</span>
+                                <span class="main__calculator-value">2-3 недели</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="main__calculator-right">
+                        <h4 class="main__calculator-right-title">Тариф </h4>
+                        <div class="main__calculator-line"></div>
+                        <ul class="main__calculator-list">
+                            <li class="main__calculator-item">Возможно продвижение как синглов, так и ЕР до 6 треков</li>
+                            <li class="main__calculator-item">Предварительно тестируем, чтобы выбрать фокус-треки и оптимизировать расход бюджета</li>
+                            <li class="main__calculator-item">Личный менеджер</li>
+                            <li class="main__calculator-item">Статистика в реальном времени</li>
+                            <li class="main__calculator-item">Отчеты по завершению работы</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="main__question">
+            <div class="main__question-block block">
+
+                <div class="main__question-title">
+                    <h2 class="block-title">ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</h2>
+                </div>
+
+                <div class="main__question-items">
+
+                    <div class="main__question-item">
+
+                        <h4 class="main__question-item-title">Что такое популярные авторские плейлисты?</h4>
+
+                        <div class="main__question-info">
+                            Мы анализируем всю базу плейлистов VK, собирая данные за длительные периоды, и отфильтровываем, оставляя в нашей базе только самые эффективные и беспроблемные размещения. Многие плейлисты VK могут быть не достаточно активны, или же стоимость размещения в них может быть завышена, так же нередки случаи мошенничества — работая с нами, вы избегаете всего этого и получаете только выжимку из лучших размещений.
+                        </div>
+
+                    </div>
+
+                    <div class="main__question-item">
+
+                        <h4 class="main__question-item-title">Какие плейлисты мы используем?</h4>
+
+                        <div class="main__question-info">
+                            Мы анализируем всю базу плейлистов VK, собирая данные за длительные периоды, и отфильтровываем, оставляя в нашей базе только самые эффективные и беспроблемные размещения. Многие плейлисты VK могут быть не достаточно активны, или же стоимость размещения в них может быть завышена, так же нередки случаи мошенничества — работая с нами, вы избегаете всего этого и получаете только выжимку из лучших размещений.
+                        </div>
+
+                    </div>
+
+                    <div class="main__question-item">
+
+                        <h4 class="main__question-item-title">Сколько это займет времени?</h4>
+
+                        <div class="main__question-info">
+                            Мы анализируем всю базу плейлистов VK, собирая данные за длительные периоды, и отфильтровываем, оставляя в нашей базе только самые эффективные и беспроблемные размещения. Многие плейлисты VK могут быть не достаточно активны, или же стоимость размещения в них может быть завышена, так же нередки случаи мошенничества — работая с нами, вы избегаете всего этого и получаете только выжимку из лучших размещений.
+                        </div>
+
+                    </div>
+
+                    <div class="main__question-item">
+
+                        <h4 class="main__question-item-title">Где я смогу следить за результатами?</h4>
+
+                        <div class="main__question-info">
+                            Мы анализируем всю базу плейлистов VK, собирая данные за длительные периоды, и отфильтровываем, оставляя в нашей базе только самые эффективные и беспроблемные размещения. Многие плейлисты VK могут быть не достаточно активны, или же стоимость размещения в них может быть завышена, так же нередки случаи мошенничества — работая с нами, вы избегаете всего этого и получаете только выжимку из лучших размещений.
+                        </div>
+
+                    </div>
+
+                    <div class="main__question-item">
+
+                        <h4 class="main__question-item-title">Можно ли оплатить частями?</h4>
+
+                        <div class="main__question-info">
+                            Мы анализируем всю базу плейлистов VK, собирая данные за длительные периоды, и отфильтровываем, оставляя в нашей базе только самые эффективные и беспроблемные размещения. Многие плейлисты VK могут быть не достаточно активны, или же стоимость размещения в них может быть завышена, так же нередки случаи мошенничества — работая с нами, вы избегаете всего этого и получаете только выжимку из лучших размещений.
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__block block">
+
+            <section class="footer__top">
+                <div class="logo footer-logo">LOGO</div>
+            </section>
+
+            <div class="footer-line"></div>
+
+            <section class="footer__bottom">
+                
+                <ul class="footer__list footer-nav">
+
+                    <h4 class="footer__list-title">навигация</h4>
+                    <li class="footer__item"><a href="#" class="footer__link">Тарифы</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Клиенты</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Новости</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Личный кабинет</a></li>
+
+                </ul>
+
+                <ul class="footer__list">
+
+                    <h4 class="footer__list-title">Контакты</h4>
+                    <li class="footer__item tel"><a href="tel:+7(999)123-45-67" class="footer__link">+7 (999) 123-45-67</a></li>
+                    <li class="footer__item loc"><a href="#" class="footer__link">г. Москва, Пресненская наб., д. 10 стр. 2, этаж 11 пом.97</a></li>
+                    <li class="footer__item mail"><a href="mailto:qwerty@gmail.com" class="footer__link">qwerty@gmail.com</a></li>
+
+                </ul>
+
+                <div class="footer__support">
+                    <h4 class="footer__list-title">Тех. поддержка</h4>
+                    <p class="footer__suppert-text">По техническим вопросам и вопросам сотрудничества</p>
+                    <div class="footer__supper-btn">
+                        <button class="footer__support-button btn">Оставить заявку</button>
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+    </footer>
+    <script src="./js/script.min.js"></script>
+</body>
+</html>
